@@ -7,6 +7,9 @@ cd ~/maccmd
 npm install pm2 -g
 npm install
 pm2 start app.js --name "maccmd"
+```
+После выполнения команды `pm2 startup macos`, нужно скопировать строчку "sudo env...", и выполнить ее в терминале
+```
 pm2 startup macos
 pm2 save
 ```
